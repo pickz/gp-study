@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.study.gpstudy.factory.simpleFactory.BookFactory</OriginalElement>
+  <nodes>
+    <node x="236.0" y="104.0">com.study.gpstudy.factory.biz.EnglishBookPrint</node>
+    <node x="238.0333333333333" y="0.0">com.study.gpstudy.factory.IBiz.Print</node>
+    <node x="152.76666666666665" y="208.0">com.study.gpstudy.factory.simpleFactory.SimpleBookFactoryTest</node>
+    <node x="0.0" y="104.0">com.study.gpstudy.factory.simpleFactory.BookFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.study.gpstudy.factory.simpleFactory.SimpleBookFactoryTest" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="69.0" y="-27.0" />
+      <point x="313.76666666666665" y="188.0" />
+      <point x="392.5" y="188.0" />
+      <point x="392.5" y="79.0" />
+      <point x="353.8666666666667" y="79.0" />
+      <point x="46.33333333333337" y="27.0" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.simpleFactory.SimpleBookFactoryTest" target="com.study.gpstudy.factory.simpleFactory.BookFactory">
+      <point x="-69.0" y="-27.0" />
+      <point x="175.76666666666665" y="188.0" />
+      <point x="54.0" y="188.0" />
+      <point x="-54.0" y="27.0" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.biz.EnglishBookPrint" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="0.0" y="-27.0" />
+      <point x="309.0" y="79.0" />
+      <point x="307.5333333333333" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.simpleFactory.SimpleBookFactoryTest" target="com.study.gpstudy.factory.biz.EnglishBookPrint">
+      <point x="23.0" y="-27.0" />
+      <point x="267.76666666666665" y="178.0" />
+      <point x="309.0" y="178.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.simpleFactory.BookFactory" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="0.0" y="-27.0" />
+      <point x="108.0" y="79.0" />
+      <point x="261.2" y="79.0" />
+      <point x="-46.33333333333334" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="126.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

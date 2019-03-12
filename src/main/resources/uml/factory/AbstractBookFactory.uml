@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.study.gpstudy.factory.BookFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="552.0">com.study.gpstudy.factory.biz.EnglishBookSale</node>
+    <node x="182.0" y="81.0">com.study.gpstudy.factory.MathBookFactory</node>
+    <node x="342.0" y="471.0">com.study.gpstudy.factory.BookFactoryTest</node>
+    <node x="0.0" y="238.0">com.study.gpstudy.factory.biz.EnglishBookBind</node>
+    <node x="0.0" y="81.0">com.study.gpstudy.factory.EnglishBookFactory</node>
+    <node x="166.0" y="395.0">com.study.gpstudy.factory.biz.MathBookPrint</node>
+    <node x="166.0" y="238.0">com.study.gpstudy.factory.biz.MathBookBind</node>
+    <node x="116.25" y="157.0">com.study.gpstudy.factory.IBiz.Bind</node>
+    <node x="0.0" y="395.0">com.study.gpstudy.factory.biz.EnglishBookPrint</node>
+    <node x="108.75" y="0.0">com.study.gpstudy.factory.BookFactory</node>
+    <node x="116.25" y="314.0">com.study.gpstudy.factory.IBiz.Print</node>
+    <node x="115.25" y="471.0">com.study.gpstudy.factory.IBiz.Sale</node>
+    <node x="164.0" y="552.0">com.study.gpstudy.factory.biz.MathBookSale</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.study.gpstudy.factory.biz.EnglishBookBind" target="com.study.gpstudy.factory.IBiz.Bind">
+      <point x="0.0" y="-15.5" />
+      <point x="73.0" y="213.0" />
+      <point x="134.75" y="213.0" />
+      <point x="-18.5" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.EnglishBookFactory" target="com.study.gpstudy.factory.BookFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="81.0" y="56.0" />
+      <point x="139.0" y="56.0" />
+      <point x="-30.25" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.biz.EnglishBookPrint" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="0.0" y="-15.5" />
+      <point x="73.0" y="370.0" />
+      <point x="134.75" y="370.0" />
+      <point x="-18.5" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.biz.MathBookBind" target="com.study.gpstudy.factory.IBiz.Bind">
+      <point x="0.0" y="-15.5" />
+      <point x="233.5" y="213.0" />
+      <point x="171.75" y="213.0" />
+      <point x="18.5" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.MathBookFactory" target="com.study.gpstudy.factory.BookFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="257.5" y="56.0" />
+      <point x="199.5" y="56.0" />
+      <point x="30.25" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.biz.MathBookSale" target="com.study.gpstudy.factory.IBiz.Sale">
+      <point x="0.0" y="-15.5" />
+      <point x="230.5" y="527.0" />
+      <point x="169.25" y="527.0" />
+      <point x="18.0" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.biz.MathBookPrint" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="0.0" y="-15.5" />
+      <point x="233.5" y="370.0" />
+      <point x="171.75" y="370.0" />
+      <point x="18.5" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.biz.EnglishBookSale" target="com.study.gpstudy.factory.IBiz.Sale">
+      <point x="0.0" y="-15.5" />
+      <point x="72.0" y="527.0" />
+      <point x="133.25" y="527.0" />
+      <point x="-18.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="66.5" y="325.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

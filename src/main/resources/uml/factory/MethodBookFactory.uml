@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.study.gpstudy.factory.factorymethod.BookFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="81.0">com.study.gpstudy.factory.biz.EnglishBookPrint</node>
+    <node x="181.8075757575757" y="81.0">com.study.gpstudy.factory.factorymethod.BookFactory</node>
+    <node x="174.64848484848483" y="243.0">com.study.gpstudy.factory.factorymethod.BookFactoryTest</node>
+    <node x="205.30757575757573" y="0.0">com.study.gpstudy.factory.IBiz.Print</node>
+    <node x="252.8075757575757" y="162.0">com.study.gpstudy.factory.factorymethod.MathBookFactory</node>
+    <node x="65.3075757575757" y="162.0">com.study.gpstudy.factory.factorymethod.EnglishBookFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.study.gpstudy.factory.factorymethod.BookFactoryTest" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="48.33333333333334" y="-15.5" />
+      <point x="295.4818181818182" y="218.0" />
+      <point x="414.3075757575757" y="218.0" />
+      <point x="414.3075757575757" y="51.0" />
+      <point x="271.9075757575757" y="51.0" />
+      <point x="29.599999999999994" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.EnglishBookFactory" target="com.study.gpstudy.factory.biz.EnglishBookPrint">
+      <point x="-54.0" y="-15.5" />
+      <point x="92.3075757575757" y="137.0" />
+      <point x="73.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.EnglishBookFactory" target="com.study.gpstudy.factory.factorymethod.BookFactory">
+      <point x="54.0" y="-15.5" />
+      <point x="200.3075757575757" y="137.0" />
+      <point x="201.97424242424236" y="137.0" />
+      <point x="-40.33333333333334" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.BookFactoryTest" target="com.study.gpstudy.factory.factorymethod.BookFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="247.14848484848483" y="218.0" />
+      <point x="242.3075757575757" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.MathBookFactory" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="37.75" y="-15.5" />
+      <point x="366.0575757575757" y="61.0" />
+      <point x="257.1075757575757" y="61.0" />
+      <point x="14.799999999999983" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.EnglishBookFactory" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="0.0" y="-15.5" />
+      <point x="146.3075757575757" y="137.0" />
+      <point x="156.49999999999994" y="137.0" />
+      <point x="156.49999999999994" y="61.0" />
+      <point x="227.50757575757572" y="61.0" />
+      <point x="-14.800000000000011" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.biz.EnglishBookPrint" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="0.0" y="-15.5" />
+      <point x="73.0" y="51.0" />
+      <point x="212.70757575757574" y="51.0" />
+      <point x="-29.599999999999994" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.BookFactoryTest" target="com.study.gpstudy.factory.factorymethod.EnglishBookFactory">
+      <point x="-48.33333333333334" y="-15.5" />
+      <point x="198.81515151515148" y="218.0" />
+      <point x="146.3075757575757" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.BookFactory" target="com.study.gpstudy.factory.IBiz.Print">
+      <point x="2.8421709430404007E-14" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.study.gpstudy.factory.factorymethod.MathBookFactory" target="com.study.gpstudy.factory.factorymethod.BookFactory">
+      <point x="-37.75" y="-15.5" />
+      <point x="290.5575757575757" y="137.0" />
+      <point x="282.6409090909091" y="137.0" />
+      <point x="40.33333333333334" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.852054794520548" x="166.5" y="315.68327974276525" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
