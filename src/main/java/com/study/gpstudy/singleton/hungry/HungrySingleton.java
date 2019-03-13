@@ -2,8 +2,9 @@ package com.study.gpstudy.singleton.hungry;
 
 /**
  * 饿汉
- * @author     ：pengkz
- * @date       ： 2019/3/12-17:06
+ *
+ * @author ：pengkz
+ * @date ： 2019/3/12-17:06
  * @modified by：
  */
 public class HungrySingleton {
